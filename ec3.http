@@ -1,22 +1,14 @@
 @server = https://ec3webservice.onrender.com
 @api = {{server}}/api/ec3
+
 ################ Categorias: ################
 ###
 GET {{api}}/categorias
 ###
-###
-GET {{api}}/categorias/2
-###
 POST {{api}}/categorias
 Content-Type: application/json
 
-{"nombre": "Instrumentos de Percusión"}
-###
-PATCH   {{api}}/categorias/2
-Content-Type: application/json
-{"nombre": "Instrumentos de viento"}
-###
-
+{"nombre": "Instrumentos de Cuerda"}
 ################ Instrumentos: ################
 ###
 GET {{api}}/instrumentos
@@ -24,12 +16,11 @@ GET {{api}}/instrumentos
 POST {{api}}/instrumentos
 Content-Type: application/json
 
-{"nombre": "Bajo", "categoria": "http://localhost/api/ec3/categorias/1"}
+{"nombre": "Guitarra", "categoria": "http://localhost/api/ec3/categorias/1"}
 ###
 GET {{api}}/instrumentos/1/categoria
 ###
 GET {{api}}/instrumentos?sort=nombre,desc
-
 
 
 
