@@ -1,4 +1,4 @@
-@server = https://ec3-webservice.onrender.com
+@server = https://ec3webservice.onrender.com
 @api = {{server}}/api/ec3
 
 ################ Categorias: ################
