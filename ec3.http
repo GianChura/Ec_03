@@ -1,4 +1,4 @@
-@server = https://gianchura-verbose-capybara-px5vrjppp6gc6r6w-8080.preview.app.github.dev
+@server = https://ec3webservice.onrender.com
 @api = {{server}}/api/ec3
 ################ Categorias: ################
 ###
