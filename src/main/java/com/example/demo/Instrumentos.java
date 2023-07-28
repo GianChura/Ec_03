@@ -19,7 +19,7 @@ public class Instrumentos {
 
     private Integer id;
     private String nombre;
-    private Integer id_categoria;
+ 
 
  
     @ManyToOne(cascade = CascadeType.ALL)
