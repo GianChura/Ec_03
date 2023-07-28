@@ -1,5 +1,5 @@
-com/example/demo/Curso.class
+com/example/demo/Categoria.class
 com/example/demo/DemoApplication.class
-com/example/demo/CarreraRepository.class
-com/example/demo/Carrera.class
-com/example/demo/CursoRepository.class
+com/example/demo/CategoriaRepository.class
+com/example/demo/Instrumentos.class
+com/example/demo/InstrumentosRepository.class
