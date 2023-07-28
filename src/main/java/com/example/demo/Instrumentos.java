@@ -46,17 +46,6 @@ public class Instrumentos {
         this.nombre = nombre;
     }
 
-
-    public Integer getId_categoria() {
-        return id_categoria;
-    }
-
-
-    public void setId_categoria(Integer id_categoria) {
-        this.id_categoria = id_categoria;
-    }
-
-
     public Categoria getCategoria() {
         return categoria;
     }
