@@ -1,0 +1,38 @@
+@server = https://gianchura-verbose-capybara-px5vrjppp6gc6r6w-8080.preview.app.github.dev
+@api = {{server}}/api/ec3
+################ Categorias: ################
+###
+GET {{api}}/categorias
+###
+###
+GET {{api}}/categorias/2
+###
+POST {{api}}/categorias
+Content-Type: application/json
+
+{"nombre": "Instrumentos de Percusión"}
+###
+PATCH   {{api}}/categorias/2
+Content-Type: application/json
+{"nombre": "Instrumentos de viento"}
+###
+
+################ Instrumentos: ################
+###
+GET {{api}}/instrumentos
+###
+POST {{api}}/instrumentos
+Content-Type: application/json
+
+{"nombre": "Guitarra", "categoria": "http://localhost/api/ec3/categorias/1"}
+###
+GET {{api}}/instrumentos/1/categoria
+###
+GET {{api}}/instrumentos?sort=nombre,desc
+
+
+
+
+
+
+
