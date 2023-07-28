@@ -7,7 +7,7 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
-@RepositoryRestResource(collectionResourceRel = "categorias", path = "categorias")
+@RepositoryRestResource(collectionResourceRel = "categorias", path = "api/ec3/categorias")
 public interface CategoriaRepository extends PagingAndSortingRepository<Categoria, Integer>, CrudRepository<Categoria, Integer> {
     
     List<Instrumentos> findByNombre(@Param("nombre") String nombre);
